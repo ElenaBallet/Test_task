@@ -1,0 +1,556 @@
+{
+  "Valuta": {
+    "@name": "Foreign Currency Market Lib",
+    "Item": [
+      {
+        "@ID": "R01010",
+        "Name": "\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u0439\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
+        "EngName": "Australian Dollar",
+        "Nominal": "1",
+        "ParentCode": "R01010",
+        "ISO_Num_Code": "36",
+        "ISO_Char_Code": "AUD"
+      },
+      {
+        "@ID": "R01015",
+        "Name": "\u0410\u0432\u0441\u0442\u0440\u0438\u0439\u0441\u043a\u0438\u0439 \u0448\u0438\u043b\u043b\u0438\u043d\u0433",
+        "EngName": "Austrian Shilling",
+        "Nominal": "1000",
+        "ParentCode": "R01015",
+        "ISO_Num_Code": "40",
+        "ISO_Char_Code": "ATS"
+      },
+      {
+        "@ID": "R01020A",
+        "Name": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0441\u043a\u0438\u0439 \u043c\u0430\u043d\u0430\u0442",
+        "EngName": "Azerbaijan Manat",
+        "Nominal": "1",
+        "ParentCode": "R01020",
+        "ISO_Num_Code": "944",
+        "ISO_Char_Code": "AZN"
+      },
+      {
+        "@ID": "R01035",
+        "Name": "\u0424\u0443\u043d\u0442 \u0441\u0442\u0435\u0440\u043b\u0438\u043d\u0433\u043e\u0432 \u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u043e\u0433\u043e \u043a\u043e\u0440\u043e\u043b\u0435\u0432\u0441\u0442\u0432\u0430",
+        "EngName": "British Pound Sterling",
+        "Nominal": "1",
+        "ParentCode": "R01035",
+        "ISO_Num_Code": "826",
+        "ISO_Char_Code": "GBP"
+      },
+      {
+        "@ID": "R01040F",
+        "Name": "\u0410\u043d\u0433\u043e\u043b\u044c\u0441\u043a\u0430\u044f \u043d\u043e\u0432\u0430\u044f \u043a\u0432\u0430\u043d\u0437\u0430",
+        "EngName": "Angolan new Kwanza",
+        "Nominal": "100000",
+        "ParentCode": "R01040",
+        "ISO_Num_Code": "24",
+        "ISO_Char_Code": "AON"
+      },
+      {
+        "@ID": "R01060",
+        "Name": "\u0410\u0440\u043c\u044f\u043d\u0441\u043a\u0438\u0439 \u0434\u0440\u0430\u043c",
+        "EngName": "Armenia Dram",
+        "Nominal": "1000",
+        "ParentCode": "R01060",
+        "ISO_Num_Code": "51",
+        "ISO_Char_Code": "AMD"
+      },
+      {
+        "@ID": "R01090B",
+        "Name": "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b\u044c",
+        "EngName": "Belarussian Ruble",
+        "Nominal": "1",
+        "ParentCode": "R01090",
+        "ISO_Num_Code": "933",
+        "ISO_Char_Code": "BYN"
+      },
+      {
+        "@ID": "R01095",
+        "Name": "\u0411\u0435\u043b\u044c\u0433\u0438\u0439\u0441\u043a\u0438\u0439 \u0444\u0440\u0430\u043d\u043a",
+        "EngName": "Belgium Franc",
+        "Nominal": "1000",
+        "ParentCode": "R01095",
+        "ISO_Num_Code": "56",
+        "ISO_Char_Code": "BEF"
+      },
+      {
+        "@ID": "R01100",
+        "Name": "\u0411\u043e\u043b\u0433\u0430\u0440\u0441\u043a\u0438\u0439 \u043b\u0435\u0432",
+        "EngName": "Bulgarian lev",
+        "Nominal": "1",
+        "ParentCode": "R01100",
+        "ISO_Num_Code": "975",
+        "ISO_Char_Code": "BGN"
+      },
+      {
+        "@ID": "R01115",
+        "Name": "\u0411\u0440\u0430\u0437\u0438\u043b\u044c\u0441\u043a\u0438\u0439 \u0440\u0435\u0430\u043b",
+        "EngName": "Brazil Real",
+        "Nominal": "1",
+        "ParentCode": "R01115",
+        "ISO_Num_Code": "986",
+        "ISO_Char_Code": "BRL"
+      },
+      {
+        "@ID": "R01135",
+        "Name": "\u0412\u0435\u043d\u0433\u0435\u0440\u0441\u043a\u0438\u0439 \u0444\u043e\u0440\u0438\u043d\u0442",
+        "EngName": "Hungarian Forint",
+        "Nominal": "100",
+        "ParentCode": "R01135",
+        "ISO_Num_Code": "348",
+        "ISO_Char_Code": "HUF"
+      },
+      {
+        "@ID": "R01200",
+        "Name": "\u0413\u043e\u043d\u043a\u043e\u043d\u0433\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
+        "EngName": "Hong Kong Dollar",
+        "Nominal": "10",
+        "ParentCode": "R01200",
+        "ISO_Num_Code": "344",
+        "ISO_Char_Code": "HKD"
+      },
+      {
+        "@ID": "R01205",
+        "Name": "\u0413\u0440\u0435\u0447\u0435\u0441\u043a\u0430\u044f \u0434\u0440\u0430\u0445\u043c\u0430",
+        "EngName": "Greek Drachma",
+        "Nominal": "10000",
+        "ParentCode": "R01205",
+        "ISO_Num_Code": "300",
+        "ISO_Char_Code": "GRD"
+      },
+      {
+        "@ID": "R01215",
+        "Name": "\u0414\u0430\u0442\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
+        "EngName": "Danish Krone",
+        "Nominal": "10",
+        "ParentCode": "R01215",
+        "ISO_Num_Code": "208",
+        "ISO_Char_Code": "DKK"
+      },
+      {
+        "@ID": "R01235",
+        "Name": "\u0414\u043e\u043b\u043b\u0430\u0440 \u0421\u0428\u0410",
+        "EngName": "US Dollar",
+        "Nominal": "1",
+        "ParentCode": "R01235",
+        "ISO_Num_Code": "840",
+        "ISO_Char_Code": "USD"
+      },
+      {
+        "@ID": "R01239",
+        "Name": "\u0415\u0432\u0440\u043e",
+        "EngName": "Euro",
+        "Nominal": "1",
+        "ParentCode": "R01239",
+        "ISO_Num_Code": "978",
+        "ISO_Char_Code": "EUR"
+      },
+      {
+        "@ID": "R01270",
+        "Name": "\u0418\u043d\u0434\u0438\u0439\u0441\u043a\u0430\u044f \u0440\u0443\u043f\u0438\u044f",
+        "EngName": "Indian Rupee",
+        "Nominal": "100",
+        "ParentCode": "R01270",
+        "ISO_Num_Code": "356",
+        "ISO_Char_Code": "INR"
+      },
+      {
+        "@ID": "R01305",
+        "Name": "\u0418\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439 \u0444\u0443\u043d\u0442",
+        "EngName": "Irish Pound",
+        "Nominal": "100",
+        "ParentCode": "R01305",
+        "ISO_Num_Code": "372",
+        "ISO_Char_Code": "IEP"
+      },
+      {
+        "@ID": "R01310",
+        "Name": "\u0418\u0441\u043b\u0430\u043d\u0434\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
+        "EngName": "Iceland Krona",
+        "Nominal": "10000",
+        "ParentCode": "R01310",
+        "ISO_Num_Code": "352",
+        "ISO_Char_Code": "ISK"
+      },
+      {
+        "@ID": "R01315",
+        "Name": "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0430\u044f \u043f\u0435\u0441\u0435\u0442\u0430",
+        "EngName": "Spanish Peseta",
+        "Nominal": "10000",
+        "ParentCode": "R01315",
+        "ISO_Num_Code": "724",
+        "ISO_Char_Code": "ESP"
+      },
+      {
+        "@ID": "R01325",
+        "Name": "\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0430\u044f \u043b\u0438\u0440\u0430",
+        "EngName": "Italian Lira",
+        "Nominal": "100000",
+        "ParentCode": "R01325",
+        "ISO_Num_Code": "380",
+        "ISO_Char_Code": "ITL"
+      },
+      {
+        "@ID": "R01335",
+        "Name": "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d\u0441\u043a\u0438\u0439 \u0442\u0435\u043d\u0433\u0435",
+        "EngName": "Kazakhstan Tenge",
+        "Nominal": "100",
+        "ParentCode": "R01335",
+        "ISO_Num_Code": "398",
+        "ISO_Char_Code": "KZT"
+      },
+      {
+        "@ID": "R01350",
+        "Name": "\u041a\u0430\u043d\u0430\u0434\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
+        "EngName": "Canadian Dollar",
+        "Nominal": "1",
+        "ParentCode": "R01350",
+        "ISO_Num_Code": "124",
+        "ISO_Char_Code": "CAD"
+      },
+      {
+        "@ID": "R01370",
+        "Name": "\u041a\u0438\u0440\u0433\u0438\u0437\u0441\u043a\u0438\u0439 \u0441\u043e\u043c",
+        "EngName": "Kyrgyzstan Som",
+        "Nominal": "100",
+        "ParentCode": "R01370",
+        "ISO_Num_Code": "417",
+        "ISO_Char_Code": "KGS"
+      },
+      {
+        "@ID": "R01375",
+        "Name": "\u041a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0439 \u044e\u0430\u043d\u044c",
+        "EngName": "China Yuan",
+        "Nominal": "10",
+        "ParentCode": "R01375",
+        "ISO_Num_Code": "156",
+        "ISO_Char_Code": "CNY"
+      },
+      {
+        "@ID": "R01390",
+        "Name": "\u041a\u0443\u0432\u0435\u0439\u0442\u0441\u043a\u0438\u0439 \u0434\u0438\u043d\u0430\u0440",
+        "EngName": "Kuwaiti Dinar",
+        "Nominal": "10",
+        "ParentCode": "R01390",
+        "ISO_Num_Code": "414",
+        "ISO_Char_Code": "KWD"
+      },
+      {
+        "@ID": "R01405",
+        "Name": "\u041b\u0430\u0442\u0432\u0438\u0439\u0441\u043a\u0438\u0439 \u043b\u0430\u0442",
+        "EngName": "Latvian Lat",
+        "Nominal": "1",
+        "ParentCode": "R01405",
+        "ISO_Num_Code": "428",
+        "ISO_Char_Code": "LVL"
+      },
+      {
+        "@ID": "R01420",
+        "Name": "\u041b\u0438\u0432\u0430\u043d\u0441\u043a\u0438\u0439 \u0444\u0443\u043d\u0442",
+        "EngName": "Lebanese Pound",
+        "Nominal": "100000",
+        "ParentCode": "R01420",
+        "ISO_Num_Code": "422",
+        "ISO_Char_Code": "LBP"
+      },
+      {
+        "@ID": "R01435",
+        "Name": "\u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u043b\u0438\u0442",
+        "EngName": "Lithuanian Lita",
+        "Nominal": "1",
+        "ParentCode": "R01435",
+        "ISO_Num_Code": "440",
+        "ISO_Char_Code": "LTL"
+      },
+      {
+        "@ID": "R01436",
+        "Name": "\u041b\u0438\u0442\u043e\u0432\u0441\u043a\u0438\u0439 \u0442\u0430\u043b\u043e\u043d",
+        "EngName": "Lithuanian talon",
+        "Nominal": "1",
+        "ParentCode": "R01435",
+        "ISO_Num_Code": null,
+        "ISO_Char_Code": null
+      },
+      {
+        "@ID": "R01500",
+        "Name": "\u041c\u043e\u043b\u0434\u0430\u0432\u0441\u043a\u0438\u0439 \u043b\u0435\u0439",
+        "EngName": "Moldova Lei",
+        "Nominal": "10",
+        "ParentCode": "R01500",
+        "ISO_Num_Code": "498",
+        "ISO_Char_Code": "MDL"
+      },
+      {
+        "@ID": "R01510",
+        "Name": "\u041d\u0435\u043c\u0435\u0446\u043a\u0430\u044f \u043c\u0430\u0440\u043a\u0430",
+        "EngName": "Deutsche Mark",
+        "Nominal": "1",
+        "ParentCode": "R01510",
+        "ISO_Num_Code": "276",
+        "ISO_Char_Code": "DEM"
+      },
+      {
+        "@ID": "R01510A",
+        "Name": "\u041d\u0435\u043c\u0435\u0446\u043a\u0430\u044f \u043c\u0430\u0440\u043a\u0430",
+        "EngName": "Deutsche Mark",
+        "Nominal": "100",
+        "ParentCode": "R01510",
+        "ISO_Num_Code": "280",
+        "ISO_Char_Code": "DEM"
+      },
+      {
+        "@ID": "R01523",
+        "Name": "\u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439 \u0433\u0443\u043b\u044c\u0434\u0435\u043d",
+        "EngName": "Netherlands Gulden",
+        "Nominal": "100",
+        "ParentCode": "R01523",
+        "ISO_Num_Code": "528",
+        "ISO_Char_Code": "NLG"
+      },
+      {
+        "@ID": "R01535",
+        "Name": "\u041d\u043e\u0440\u0432\u0435\u0436\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
+        "EngName": "Norwegian Krone",
+        "Nominal": "10",
+        "ParentCode": "R01535",
+        "ISO_Num_Code": "578",
+        "ISO_Char_Code": "NOK"
+      },
+      {
+        "@ID": "R01565",
+        "Name": "\u041f\u043e\u043b\u044c\u0441\u043a\u0438\u0439 \u0437\u043b\u043e\u0442\u044b\u0439",
+        "EngName": "Polish Zloty",
+        "Nominal": "1",
+        "ParentCode": "R01565",
+        "ISO_Num_Code": "985",
+        "ISO_Char_Code": "PLN"
+      },
+      {
+        "@ID": "R01570",
+        "Name": "\u041f\u043e\u0440\u0442\u0443\u0433\u0430\u043b\u044c\u0441\u043a\u0438\u0439 \u044d\u0441\u043a\u0443\u0434\u043e",
+        "EngName": "Portuguese Escudo",
+        "Nominal": "10000",
+        "ParentCode": "R01570",
+        "ISO_Num_Code": "620",
+        "ISO_Char_Code": "PTE"
+      },
+      {
+        "@ID": "R01585",
+        "Name": "\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439 \u043b\u0435\u0439",
+        "EngName": "Romanian Leu",
+        "Nominal": "10000",
+        "ParentCode": "R01585",
+        "ISO_Num_Code": "642",
+        "ISO_Char_Code": "ROL"
+      },
+      {
+        "@ID": "R01585F",
+        "Name": "\u0420\u0443\u043c\u044b\u043d\u0441\u043a\u0438\u0439 \u043b\u0435\u0439",
+        "EngName": "Romanian Leu",
+        "Nominal": "10",
+        "ParentCode": "R01585",
+        "ISO_Num_Code": "946",
+        "ISO_Char_Code": "RON"
+      },
+      {
+        "@ID": "R01589",
+        "Name": "\u0421\u0414\u0420 (\u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043f\u0440\u0430\u0432\u0430 \u0437\u0430\u0438\u043c\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u044f)",
+        "EngName": "SDR",
+        "Nominal": "1",
+        "ParentCode": "R01589",
+        "ISO_Num_Code": "960",
+        "ISO_Char_Code": "XDR"
+      },
+      {
+        "@ID": "R01625",
+        "Name": "\u0421\u0438\u043d\u0433\u0430\u043f\u0443\u0440\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
+        "EngName": "Singapore Dollar",
+        "Nominal": "1",
+        "ParentCode": "R01625",
+        "ISO_Num_Code": "702",
+        "ISO_Char_Code": "SGD"
+      },
+      {
+        "@ID": "R01665A",
+        "Name": "\u0421\u0443\u0440\u0438\u043d\u0430\u043c\u0441\u043a\u0438\u0439 \u0434\u043e\u043b\u043b\u0430\u0440",
+        "EngName": "Surinam Dollar",
+        "Nominal": "1",
+        "ParentCode": "R01665",
+        "ISO_Num_Code": "968",
+        "ISO_Char_Code": "SRD"
+      },
+      {
+        "@ID": "R01670",
+        "Name": "\u0422\u0430\u0434\u0436\u0438\u043a\u0441\u043a\u0438\u0439 \u0441\u043e\u043c\u043e\u043d\u0438",
+        "EngName": "Tajikistan Ruble",
+        "Nominal": "10",
+        "ParentCode": "R01670",
+        "ISO_Num_Code": "972",
+        "ISO_Char_Code": "TJS"
+      },
+      {
+        "@ID": "R01670B",
+        "Name": "\u0422\u0430\u0434\u0436\u0438\u043a\u0441\u043a\u0438\u0439 \u0440\u0443\u0431\u043b",
+        "EngName": "Tajikistan Ruble",
+        "Nominal": "10",
+        "ParentCode": "R01670",
+        "ISO_Num_Code": "762",
+        "ISO_Char_Code": "TJR"
+      },
+      {
+        "@ID": "R01700J",
+        "Name": "\u0422\u0443\u0440\u0435\u0446\u043a\u0430\u044f \u043b\u0438\u0440\u0430",
+        "EngName": "Turkish Lira",
+        "Nominal": "1",
+        "ParentCode": "R01700",
+        "ISO_Num_Code": "949",
+        "ISO_Char_Code": "TRY"
+      },
+      {
+        "@ID": "R01710",
+        "Name": "\u0422\u0443\u0440\u043a\u043c\u0435\u043d\u0441\u043a\u0438\u0439 \u043c\u0430\u043d\u0430\u0442",
+        "EngName": "Turkmenistan Manat",
+        "Nominal": "10000",
+        "ParentCode": "R01710",
+        "ISO_Num_Code": "795",
+        "ISO_Char_Code": "TMM"
+      },
+      {
+        "@ID": "R01710A",
+        "Name": "\u041d\u043e\u0432\u044b\u0439 \u0442\u0443\u0440\u043a\u043c\u0435\u043d\u0441\u043a\u0438\u0439 \u043c\u0430\u043d\u0430\u0442",
+        "EngName": "New Turkmenistan Manat",
+        "Nominal": "1",
+        "ParentCode": "R01710",
+        "ISO_Num_Code": "934",
+        "ISO_Char_Code": "TMT"
+      },
+      {
+        "@ID": "R01717",
+        "Name": "\u0423\u0437\u0431\u0435\u043a\u0441\u043a\u0438\u0439 \u0441\u0443\u043c",
+        "EngName": "Uzbekistan Sum",
+        "Nominal": "1000",
+        "ParentCode": "R01717",
+        "ISO_Num_Code": "860",
+        "ISO_Char_Code": "UZS"
+      },
+      {
+        "@ID": "R01720",
+        "Name": "\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0430\u044f \u0433\u0440\u0438\u0432\u043d\u0430",
+        "EngName": "Ukrainian Hryvnia",
+        "Nominal": "10",
+        "ParentCode": "R01720",
+        "ISO_Num_Code": "980",
+        "ISO_Char_Code": "UAH"
+      },
+      {
+        "@ID": "R01720A",
+        "Name": "\u0423\u043a\u0440\u0430\u0438\u043d\u0441\u043a\u0438\u0439 \u043a\u0430\u0440\u0431\u043e\u0432\u0430\u043d\u0435\u0446",
+        "EngName": "Ukrainian Hryvnia",
+        "Nominal": "1",
+        "ParentCode": "R01720",
+        "ISO_Num_Code": null,
+        "ISO_Char_Code": null
+      },
+      {
+        "@ID": "R01740",
+        "Name": "\u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0441\u043a\u0430\u044f \u043c\u0430\u0440\u043a\u0430",
+        "EngName": "Finnish Marka",
+        "Nominal": "100",
+        "ParentCode": "R01740",
+        "ISO_Num_Code": "246",
+        "ISO_Char_Code": "FIM"
+      },
+      {
+        "@ID": "R01750",
+        "Name": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0438\u0439 \u0444\u0440\u0430\u043d\u043a",
+        "EngName": "French Franc",
+        "Nominal": "1000",
+        "ParentCode": "R01750",
+        "ISO_Num_Code": "250",
+        "ISO_Char_Code": "FRF"
+      },
+      {
+        "@ID": "R01760",
+        "Name": "\u0427\u0435\u0448\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
+        "EngName": "Czech Koruna",
+        "Nominal": "10",
+        "ParentCode": "R01760",
+        "ISO_Num_Code": "203",
+        "ISO_Char_Code": "CZK"
+      },
+      {
+        "@ID": "R01770",
+        "Name": "\u0428\u0432\u0435\u0434\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
+        "EngName": "Swedish Krona",
+        "Nominal": "10",
+        "ParentCode": "R01770",
+        "ISO_Num_Code": "752",
+        "ISO_Char_Code": "SEK"
+      },
+      {
+        "@ID": "R01775",
+        "Name": "\u0428\u0432\u0435\u0439\u0446\u0430\u0440\u0441\u043a\u0438\u0439 \u0444\u0440\u0430\u043d\u043a",
+        "EngName": "Swiss Franc",
+        "Nominal": "1",
+        "ParentCode": "R01775",
+        "ISO_Num_Code": "756",
+        "ISO_Char_Code": "CHF"
+      },
+      {
+        "@ID": "R01790",
+        "Name": "\u042d\u041a\u042e",
+        "EngName": "ECU",
+        "Nominal": "1",
+        "ParentCode": "R01790",
+        "ISO_Num_Code": "954",
+        "ISO_Char_Code": "XEU"
+      },
+      {
+        "@ID": "R01795",
+        "Name": "\u042d\u0441\u0442\u043e\u043d\u0441\u043a\u0430\u044f \u043a\u0440\u043e\u043d\u0430",
+        "EngName": "Estonian Kroon",
+        "Nominal": "10",
+        "ParentCode": "R01795",
+        "ISO_Num_Code": "233",
+        "ISO_Char_Code": "EEK"
+      },
+      {
+        "@ID": "R01805",
+        "Name": "\u042e\u0433\u043e\u0441\u043b\u0430\u0432\u0441\u043a\u0438\u0439 \u043d\u043e\u0432\u044b\u0439 \u0434\u0438\u043d\u0430\u0440",
+        "EngName": "Yugoslavian Dinar",
+        "Nominal": "1",
+        "ParentCode": "R01804",
+        "ISO_Num_Code": "890",
+        "ISO_Char_Code": "YUN"
+      },
+      {
+        "@ID": "R01810",
+        "Name": "\u042e\u0436\u043d\u043e\u0430\u0444\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u0439 \u0440\u044d\u043d\u0434",
+        "EngName": "S.African Rand",
+        "Nominal": "10",
+        "ParentCode": "R01810",
+        "ISO_Num_Code": "710",
+        "ISO_Char_Code": "ZAR"
+      },
+      {
+        "@ID": "R01815",
+        "Name": "\u0412\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0438 \u041a\u043e\u0440\u0435\u044f",
+        "EngName": "South Korean Won",
+        "Nominal": "1000",
+        "ParentCode": "R01815",
+        "ISO_Num_Code": "410",
+        "ISO_Char_Code": "KRW"
+      },
+      {
+        "@ID": "R01820",
+        "Name": "\u042f\u043f\u043e\u043d\u0441\u043a\u0430\u044f \u0438\u0435\u043d\u0430",
+        "EngName": "Japanese Yen",
+        "Nominal": "100",
+        "ParentCode": "R01820",
+        "ISO_Num_Code": "392",
+        "ISO_Char_Code": "JPY"
+      }
+    ]
+  }
+}
