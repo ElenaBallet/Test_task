@@ -2,6 +2,8 @@ from typing import Optional
 from fastapi.responses import JSONResponse
 from fastapi import FastAPI
 import json
+from datetime import date
+from app import code
 
 app = FastAPI()
 
@@ -11,9 +13,14 @@ def get_titles():
     return JSONResponse({"status":"OK"})
 
 
-@app.get("/items/{item_id}")
-def difference_in_quotes(item_id: int, q: Optional[str] = None):
-    return JSONResponse({"status":"OK"})
+@app.get("/date")
+async def get_two_date(
+    date_1: str, #: date,
+    date_2: str, #: date,
+    Char_Code: str
+):
+
+    return code(Char_Code, date_1,date_2)
 
 
 @app.get("/get_currency_list")

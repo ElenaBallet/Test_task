@@ -4,7 +4,6 @@ import xml.etree.ElementTree as et
 import xmltodict
 import json
 
-
 url = "http://www.cbr.ru/scripts/XML_valFull.asp"
 response = get(url).content
 root = ET.fromstring(response)
