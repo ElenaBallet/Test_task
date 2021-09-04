@@ -1,9 +1,9 @@
-from typing import Optional
 from fastapi.responses import JSONResponse
 from fastapi import FastAPI
 import json
 from datetime import date
 from app import code
+
 
 app = FastAPI()
 
@@ -15,8 +15,8 @@ def get_titles():
 
 @app.get("/date")
 async def get_two_date(
-    date_1: str, #: date,
-    date_2: str, #: date,
+    date_1: date,
+    date_2: date,
     Char_Code: str
 ):
 
