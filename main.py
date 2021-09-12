@@ -20,7 +20,7 @@ async def get_two_date(
 ):
     return difference_in_course(Char_Code, date_1, date_2) # import difference_in_course из файла get_difference_in_course
 
-# получение данных о валютах с сайта
+# получение списка валют из файла data_file.json
 @app.get("/get_currency_list")
 async def get_currency_list():
     """get full list currency"""
